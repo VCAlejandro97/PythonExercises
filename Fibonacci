@@ -1,0 +1,11 @@
+def fibonacci():
+
+    number_one=0
+    number_two=1 
+    for index in range (0,50):
+        print(number_one)
+        fib=number_one+number_two
+        number_one=number_two
+        number_two=fib
+
+fibonacci()
